@@ -18,7 +18,7 @@ class SignIn extends React.Component {
 	}
 
 	onSubmitSignIn = () => {
-		fetch('https://git.heroku.com/powerful-wildwood-71738.git/signin', {
+		fetch('https://powerful-wildwood-71738.herokuapp.com/signin', {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
